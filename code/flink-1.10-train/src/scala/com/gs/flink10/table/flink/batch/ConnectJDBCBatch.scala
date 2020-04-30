@@ -29,7 +29,7 @@ object ConnectJDBCBatch {
     val typeInfo = new RowTypeInfo(types, fields)
 
     val jdbc = new JDBCInputFormatBuilder()
-      .setDBUrl("jdbc:mysql://172.100.102.200:3306/bdmanager?user=root&password=root1234&characterEncoding=gbk&useSSL=false")
+      .setDBUrl("jdbc:mysql://xx.xx.xx.xx:3306/bdmanager?user=root&password=root1234&characterEncoding=gbk&useSSL=false")
       .setDrivername("com.mysql.jdbc.Driver")
       .setUsername("root")
       .setPassword("root1234")
