@@ -1,0 +1,8 @@
+#单机版本搭建
+wget https://mirrors.tuna.tsinghua.edu.cn/apache/flink/flink-1.10.0/flink-1.10.0-bin-scala_2.11.tgz
+tar -zxvf flink-1.10.0-bin-scala_2.11.tgz
+cd flink-1.10/
+./bin/start-cluster.sh
+http://localhost:8081
+
+
