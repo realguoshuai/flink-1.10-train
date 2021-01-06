@@ -3,6 +3,6 @@ wget https://mirrors.tuna.tsinghua.edu.cn/apache/flink/flink-1.10.0/flink-1.10.0
 tar -zxvf flink-1.10.0-bin-scala_2.11.tgz
 cd flink-1.10/
 ./bin/start-cluster.sh
-http://localhost:8081
+本地访问 http://localhost:8081
 
 
